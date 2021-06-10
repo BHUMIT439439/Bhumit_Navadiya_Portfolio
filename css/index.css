@@ -216,7 +216,7 @@ h1,h2,h3{
 }
 @media (max-width:500px){
     html{
-        font-size: 5px;
+        font-size: 6px;
     }
     .header .navbar .nav-items, .header .navbar .logo{
         float: none;
@@ -226,6 +226,10 @@ h1,h2,h3{
     }
     .header-content{
         left: 23%;
+    }
+    .row{
+        height: 330px;
+      
     }
 }
 @media (min-width:501px) and (max-width:800px){
